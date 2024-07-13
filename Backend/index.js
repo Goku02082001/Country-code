@@ -7,7 +7,7 @@ const { connectDB } = require("./utils/db.config");
 const { usersRoute } = require("./routes/users.routes");
 
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 
 app.use(cors());
 
