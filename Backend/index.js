@@ -12,10 +12,10 @@ const PORT = process.env.PORT;
 app.use(cors());
 
 app.use(express.json());
-
+// Home Page
 app.get("/", (req, res) => {
   try {
-    res.status(200).json({ message: "Server Home Page" });
+    res.status(200).json({ message: "Server Home Page" });  
   } catch (error) {
     res.status(400).json({ message: error });
   }
