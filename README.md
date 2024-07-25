@@ -1,1 +1,1 @@
-hello
+Create a streamlined Country Code Finder with an intuitive interface to quickly search and retrieve international dialing codes. Ideal for users needing accurate country codes and phone number formatting for global communication.
